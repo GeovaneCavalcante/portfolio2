@@ -1,0 +1,60 @@
+nav{
+    background:  #a20fbc;
+}
+.logo{
+    height: 64px;
+    background:  #810496;
+    position: absolute;
+    width: 16.8%;
+}
+
+.logo a{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 38%;
+    font-weight: 600;
+   
+    letter-spacing: 2px; 
+    font-size: 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .logo{
+       display: none;
+    }
+    .logo2{
+        display: block;
+        font-weight: 600;
+    }    
+
+    
+}
+  
+  
+@media screen and (max-width: 992px) {
+    .logo{
+        display: none;
+     }  
+  
+}
+
+@media screen and (min-width: 992px) {
+    .logo2{
+        display: none;
+     }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .list{
+        margin-left: -5px;
+      }
+
+      .logo2{
+        display: none;
+     }
+}

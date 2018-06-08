@@ -1,0 +1,60 @@
+
+.title{
+    text-align: center;
+    color: #3d3b3b;
+}
+.divpost{
+    padding-left: 6%; padding-right: 6%;
+}
+
+.title1{
+    text-align: center;
+    padding-left: 1%;
+    color: #3d3b3b;
+    padding-bottom: 2%;
+}
+@media (max-width: 480px) { 
+   .si{
+       display: none;
+   }
+   .card-t{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .para{
+        text-align: center;
+        font-size: 12px;
+    }
+    .title1{
+        text-align: center;
+        font-size: 200%;
+        color: #3d3b3b;
+        padding-bottom: 2%;
+    }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+  
+   
+   
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    
+   
+    .title{
+        text-align: center;
+        color: #3d3b3b;
+        font-size: 350%;
+    }
+
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+   
+}
