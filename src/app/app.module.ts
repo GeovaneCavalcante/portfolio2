@@ -20,7 +20,7 @@ import {  RouterModule } from '@angular/router';
     AdminModule,
     RouterModule.forRoot(
       appRoutesCore,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: true }
     )
   ],
   providers: [],
