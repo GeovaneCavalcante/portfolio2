@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+
+declare var Prism;
 
 @Component({
   selector: 'app-postagens',
   templateUrl: './postagens.component.html',
-  styleUrls: ['./postagens.component.css']
+  styleUrls: ['./postagens.component.css'],
 })
-export class PostagensComponent implements OnInit {
+export class PostagensComponent implements AfterViewInit {
+
+
+  myCode: any;
 
   constructor() { }
 
-  ngOnInit() {
+  ngAfterViewInit() {
+    const code = 'var data = 1;';
+    this.myCode = Prism.highlight(code, Prism.languages.javascript);
   }
 
 }

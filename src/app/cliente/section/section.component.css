@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .section-client{
         position: relative;
         float: left;
@@ -100,6 +100,22 @@
     }
 }
   
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .section-client{
+
+        position: absolute;
+        background-image: url('/assets/images/sec-cliente.jpg');
+        background-size: 170% 100%;
+        background-repeat: no-repeat;
+        background-position: relative;
+    }
+    
+    .list{
+        margin-left: 11%;
+    
+    }
+}  
+
   
 @media screen and (min-width: 992px) {
     .list{

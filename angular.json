@@ -78,7 +78,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../node_modules/prismjs/prism.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
