@@ -9,6 +9,7 @@ import { HomeAboutComponent } from './home-about/home-about.component';
 import { PageContatoComponent } from './page-contato/page-contato.component';
 import { PostagensComponent } from './postagens/postagens.component';
 import { RouterModule } from '@angular/router';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot(
       appRoutesCore,
       { enableTracing: true }
-    )
+    ),
+    ScrollToModule.forRoot()
   ],
   declarations: [
     ClienteComponent,
