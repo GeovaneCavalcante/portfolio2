@@ -4,3 +4,9 @@ html{
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media (max-width: 480px) {
+
+  .title_magim{
+    margin-top: 17%;
+  }
+}

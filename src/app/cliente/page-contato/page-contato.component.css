@@ -13,7 +13,7 @@
     color: #3d3b3b;
     padding-bottom: 2%;
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
    .si{
        display: none;
    }
@@ -29,7 +29,7 @@
     }
     .title1{
         text-align: center;
-        font-size: 200%;
+        font-size: 30px;
         color: #3d3b3b;
         padding-bottom: 2%;
     }
@@ -37,15 +37,15 @@
 
 /* Telefones em paisagem a tablet em retrato */
 @media (max-width: 767px) {
-  
-   
-   
+
+
+
 }
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    
-   
+
+
     .title{
         text-align: center;
         color: #3d3b3b;
@@ -56,5 +56,5 @@
 
 /* Desktop grande */
 @media (min-width: 1200px) {
-   
+
 }

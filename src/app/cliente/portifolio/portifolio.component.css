@@ -4,7 +4,7 @@
     height: 700px;
     padding: 0px;
     margin: 0px;
-    
+
 }
 .cardFixe{
     width:100%;
@@ -43,7 +43,7 @@
 .divH{
     padding-left: 8%;
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
     .divH{
         padding-left: 2%;
         padding-right: 2%;
@@ -62,10 +62,14 @@
         font-size: 12px;
     }
     .title1{
+
         text-align: center;
-        font-size: 200%;
+        font-size: 30px;
         color: #3d3b3b;
         padding-bottom: 2%;
+    }
+    .title_magim{
+      margin-top: 17%;
     }
 }
 
@@ -78,8 +82,8 @@
         margin-left: 4%;
     }
 
-   
-   
+
+
 }
 
 /* Tablet em retrato a paisagem e desktop */

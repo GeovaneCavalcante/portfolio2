@@ -4,9 +4,9 @@
     height: 700px;
     padding: 0px;
     margin: 0px;
-    
+
 }
-.r{ 
+.r{
     border: 0;
     height: 1px;
     width: 100%;
@@ -38,7 +38,7 @@
     color: #514f4f;
     text-align: justify
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
    .si{
        display: none;
    }
@@ -65,13 +65,14 @@
         padding-left: 1%;
         color: #3d3b3b;
         padding-bottom: 2%;
+
     }
 
     .title{
         text-align: center;
         color: #3d3b3b;
         padding-bottom: 2%;
-        font-size: 200%;
+        font-size: 30px;
     }
 }
 
