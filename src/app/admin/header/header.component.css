@@ -1,9 +1,9 @@
 nav{
-    background:  #a20fbc;
+    background:  #039be5;
 }
 .logo{
     height: 64px;
-    background:  #810496;
+    background:  #0a7fb9;
     position: absolute;
     width: 16.8%;
 }
@@ -13,33 +13,120 @@ nav{
     padding: 0px;
     margin-left: 38%;
     font-weight: 600;
-   
-    letter-spacing: 2px; 
+
+    letter-spacing: 2px;
     font-size: 40px;
 }
 
+.img_nav{
+  width: 18%;
+  padding: 0px;
+  margin: 0px;
+}
+.img_nav2{
+  width: 42px;
+  margin-top: 12px;
+  float: left;
+  margin-left: 50%;
+}
+.nav_mobile{
+  background: #4b646f;
+
+}
+.nav_mobile li a{
+  padding-left: 5%;
+  color: rgb(180, 175, 175);
+  font-weight: 600;
+  font-size: 110%;
+}
+.nav_mobile li a i{
+  color: rgb(180, 175, 175);
+}
+nav ul li a:hover {
+  background-color: inherit;
+  font-size: 105%;
+  margin: -1px;
+  transition: 0.1s;
+
+}
+nav ul li a i:hover {
+  font-size: 180%;
+  transition: 0.1s;
+  margin: -1px;
+}
 
 
+@media screen and (max-width: 780px) {
+  .logo{
+    display: none;
+ }
+ .logo2{
+   margin-top: 1%;
+     display: block;
+ }
+}
 
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .logo{
+    display: none;
+ }
+ .logo2{
+   margin-top: 0%;
+     display: block;
+ }
+}
+
+
+@media screen and (min-width: 992px) {
+  .list{
+    margin-left: -5px;
+  }
+
+  .logo2{
+    display: none;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+  .list{
+    margin-left: -5px;
+  }
+
+  .logo2{
+    display: none;
+ }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .list{
+    margin-left: -5px;
+  }
+
+  .logo2{
+    display: none;
+ }
+}
+/*
 
 @media screen and (max-width: 768px) {
     .logo{
        display: none;
     }
     .logo2{
+      margin-top: 0%;
         display: block;
-        font-weight: 600;
-    }    
+    }
 
-    
+
 }
-  
-  
+
+
 @media screen and (max-width: 992px) {
     .logo{
         display: none;
-     }  
-  
+     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -58,3 +145,4 @@ nav{
         display: none;
      }
 }
+*/

@@ -3,7 +3,25 @@
 html{
     font-family: 'Ubuntu', sans-serif;
 }
+body {
+  padding-right: 0 !important;
+}
 
+.pagination li.active {
+  background:  #039be5;
+}
+.input-field input[type=text]:focus + label {
+  color: #039be5;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #039be5;
+  box-shadow: 0 1px 0 0 #039be5;
+}
+
+html.swal2-shown,
+body.swal2-shown {
+  overflow-y: auto !important;
+}
 @media (max-width: 480px) {
 
   .title_magim{

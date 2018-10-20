@@ -1,11 +1,11 @@
 .section-client{
-    
+
     height: 100%;
-    width: 100%;
+    width: 100.5%;
     position: absolute;
-    background: white;
+    background: #076da0;
     box-shadow: 0px 1px 1px #b3b3b7;
-    
+
 }
 .logo{
     height: 64px;
@@ -34,73 +34,107 @@
     color: white;
     font-size: 15px;
     text-align: center;
-    margin: 0px; 
+    margin: 0px;
 }
 
 
 
 .list li i{
-    color: white;
+    color: rgb(243, 245, 245);
 }
 
 .list-names{
-    font-size: 15px;
+    font-size: 13px;
     margin: 0px;
     padding: 0px;
 }
 .list-names li{
    margin-bottom: 30px;
    text-align: justify;
+   font-size: 16px;
 }
 .list-names li a{
-    color: #7e7e7f;
+    color: rgb(243, 245, 245);
     padding: 0px;
     margin: 0px;
     text-align: left;
 }
+.list-names li a:hover{
+  color: rgb(180, 175, 175);
+  font-weight: 700;
+  transition: 0.1s;
+}
+
 i{
+  color: rgb(243, 245, 245);
     font-size: 18px;
 }
 
 
-@media screen and (max-width: 768px) {
-    .section-client{
-        position: relative;
-        float: left;
-    }
-    .list{
-        margin-left: 20 px;
-    }
-    .list li{
-        margin-left: 10px;
-        font-size: 25px;
-    }
-    .list-names{
-        text-align: center;
-        font-size: 18px;
-        margin: 0px;
-    }
-    .frase{
-      
-        font-size: 15px;
-
-    }
-    .title-name{
-        color: white;
-        font-size: 25px;
-        text-align: center;
-        box-shadow: 700px;
-    }
-
-    .imagem-logo{
-        margin: auto;
-        width: 100px;
-        border-radius: 100%;
-        border: solid 4px white;
-    }
+@media screen and (max-width: 780px) {
+  .section-client{
+    position: relative;
+    float: left;
+    display: none;
 }
-  
-  
+.list{
+    margin-left: 20 px;
+}
+.list li{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.list-names{
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+.frase{
+
+    font-size: 15px;
+
+}
+.title-name{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 700px;
+}
+
+.imagem-logo{
+    margin: auto;
+    width: 100px;
+    border-radius: 100%;
+    border: solid 4px white;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .section-client{
+    position: relative;
+    float: left;
+    display: none;
+}
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+/*
+
 @media screen and (min-width: 992px) {
     .list{
         margin-left: -15px;
@@ -119,3 +153,4 @@ i{
         margin-left: -5px;
       }
 }
+*/
