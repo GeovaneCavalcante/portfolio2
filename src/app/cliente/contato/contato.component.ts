@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import { ContatoService } from './contato.service';
 
 import { SwalComponent } from '@toverux/ngx-sweetalert2';
 
@@ -16,22 +17,22 @@ import { Email } from './contato.model';
 export class ContatoComponent implements OnInit {
 
   items: Observable<any[]>;
-  name: string;
-  msg: string;
-  mail: string;
+  email: Email;
+
+  contatos: any;
   @ViewChild('deleteSwal') private deleteSwal: SwalComponent;
 
   constructor(
       db: AngularFirestore,
-      private router: Router) {
+      private router: Router,
+      public contatoService: ContatoService) {
 
-    this.items = db.collection('contatos').valueChanges();
+      this.contatos = db.collection<Email>('contatos');
   }
 
   ngOnInit() {
 
   }
-
 
   validate(invalid, dirty, touched) {
 
@@ -52,14 +53,15 @@ export class ContatoComponent implements OnInit {
     this.router.navigate([this.router.url]);
   }
 
-  enviar(value) {
+  enviar(dados) {
+
+    dados['subject'] = 'BLOG - ' + dados['subject'];
+
     this.deleteSwal.show();
-
-    this.mail = '';
-    this.msg = '';
-    this.name = '';
-
     this.reloadPage();
+    this.contatos.add(dados);
+
+    this.contatoService.enviarEmail(dados);
   }
 
 

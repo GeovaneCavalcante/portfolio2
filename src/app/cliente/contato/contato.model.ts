@@ -1,6 +1,6 @@
 
 export interface Email {
   email: string;
-  menssagem: number;
+  menssagem: string;
   nome: string;
 }

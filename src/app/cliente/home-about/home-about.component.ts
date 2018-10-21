@@ -18,6 +18,11 @@ export class HomeAboutComponent implements OnInit {
 
   carrusel() {
     $('.carousel').carousel();
+    autoplay();
+    function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 3000);
+    }
   }
 
 }

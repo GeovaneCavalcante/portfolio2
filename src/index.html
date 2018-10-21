@@ -13,8 +13,6 @@
   <meta property="og:title"         content="Geovane Cavalcante" />
   <meta property="og:description"   content="Amante da tecnologia, especialmente na área de desenvolvimento de software. Blog/Portfólio, compartilharei trabalhos e conteúdos. " />
   <meta property="og:image"         content="../assets/images/share.jpg" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -22,33 +20,6 @@
   </head>
 <body>
   <app-root></app-root>
-  <!-- Load Facebook SDK for JavaScript -->
-
-
 </body>
-
-   <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous">
-    </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
-   <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
-      });
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-        $('.carousel').carousel();
-        autoplay()
-        function autoplay() {
-            $('.carousel').carousel('next');
-            setTimeout(autoplay, 2500);
-        }
-      });
-
-  </script>
 
 </html>

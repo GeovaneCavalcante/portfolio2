@@ -15,6 +15,7 @@ import { HomeAboutComponent } from './home-about/home-about.component';
 import { PageContatoComponent } from './page-contato/page-contato.component';
 import { PostagensComponent } from './postagens/postagens.component';
 
+import { ContatoService } from './contato/contato.service';
 
 @NgModule({
   imports: [
@@ -39,6 +40,9 @@ import { PostagensComponent } from './postagens/postagens.component';
   ],
   exports: [
     ClienteComponent
+  ],
+  providers: [
+    ContatoService
   ]
 })
 export class ClienteModule { }

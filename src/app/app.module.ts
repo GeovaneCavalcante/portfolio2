@@ -2,6 +2,7 @@ import { appRoutesCore } from './routes';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ClienteModule } from './cliente/cliente.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AdminModule } from './admin/admin.module';
@@ -23,6 +24,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     ClienteModule,
     AdminModule,
+    HttpClientModule,
     RouterModule.forRoot(
       appRoutesCore,
       { enableTracing: true }
