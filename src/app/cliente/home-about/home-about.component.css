@@ -95,4 +95,10 @@
     .na{
         display: none;
     }
+    .sobre{
+      padding-left: 6%; padding-right: 6%;
+    }
+    .linha-contato{
+      padding-left: 4%;
+    }
 }

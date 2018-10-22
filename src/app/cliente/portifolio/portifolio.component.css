@@ -36,91 +36,103 @@
     font-size: 15px;
     line-height: 1.7;
 }
-.divSpace{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.divH{
-    padding-left: 8%;
-}
-@media (max-width: 480px) {
-    .divH{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-   .si{
-       display: none;
-   }
-   .card-t{
-        padding: 0px;
-        margin: 0px;
-        text-align: center;
-        font-size: 18px;
-    }
-    .para{
-        text-align: center;
-        font-size: 12px;
-    }
-    .title1{
 
-        text-align: center;
-        font-size: 30px;
-        color: #3d3b3b;
-        padding-bottom: 2%;
-    }
-    .title_magim{
-      margin-top: 17%;
-    }
+
+@media (max-width: 480px) {
+  .divSpace{
+      padding-left: 0%;
+      padding-right: 0%;
+      margin: 0px;
+  }
+  .divH{
+      padding-left: 0%;
+      padding-right: 0%;
+      margin: 0px;
+  }
+  .si{
+      display: none;
+  }
+  .card-t{
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      font-size: 18px;
+  }
+  .para{
+      text-align: center;
+      font-size: 12px;
+  }
+  .title1{
+
+      text-align: center;
+      font-size: 30px;
+      color: #3d3b3b;
+      padding-bottom: 2%;
+  }
+  .title_magim{
+    margin-top: 17%;
+  }
 }
 
 /* Telefones em paisagem a tablet em retrato */
 @media (max-width: 767px) {
-    .si{
-        display: none;
-    }
-    .foot{
-        margin-left: 4%;
-    }
-
+  .si{
+      display: none;
+  }
+  .foot{
+      margin-left: 4%;
+  }
+  .divH{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 
 
 }
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    .divH{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .si{
-        display: none;
-    }
-    .divpost{
-        padding-left: 1%; padding-right: 1%;
-    }
-    .title{
-        text-align: center;
-        color: #3d3b3b;
-        font-size: 350%;
-    }
-    .card-t{
-        text-align: center;
-        font-size: 170%;
-    }
-    .cardFixe{
-        width:100%;
-        height: 400px;
-    }
+  .divH{
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  .si{
+      display: none;
+  }
+  .divpost{
+      padding-left: 1%; padding-right: 1%;
+  }
+  .title{
+      text-align: center;
+      color: #3d3b3b;
+      font-size: 350%;
+  }
+  .card-t{
+      text-align: center;
+      font-size: 170%;
+  }
+  .cardFixe{
+      width:100%;
+      height: 400px;
+  }
 
-    .para{
-        text-align: center;
-        font-size: 15px;
-    }
+  .para{
+      text-align: center;
+      font-size: 15px;
+  }
 }
 
 /* Desktop grande */
 @media (min-width: 1200px) {
-    .na{
-        display: none;
-    }
+  .na{
+      display: none;
+  }
+  .divSpace{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  .divH{
+    padding-left: 8%;
+  }
+
 }

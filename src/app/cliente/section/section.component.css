@@ -1,5 +1,5 @@
 .section-client{
-    
+
     height: 100%;
     width: 100%;
     position: absolute;
@@ -29,11 +29,11 @@
     color: white;
     font-size: 15px;
     text-align: center;
-    margin: 0px; 
+    margin: 0px;
 }
 
 .list{
-  display:flex;  
+  display:flex;
   list-style:none;
   margin-left: 3%;
 }
@@ -81,7 +81,7 @@
         margin: 0px;
     }
     .frase{
-      
+
         font-size: 15px;
 
     }
@@ -99,7 +99,7 @@
         border: solid 4px white;
     }
 }
-  
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .section-client{
 
@@ -109,14 +109,14 @@
         background-repeat: no-repeat;
         background-position: relative;
     }
-    
+
     .list{
         margin-left: 11%;
-    
-    }
-}  
 
-  
+    }
+}
+
+
 @media screen and (min-width: 992px) {
     .list{
         margin-left: -15px;

@@ -1,10 +1,10 @@
 .cardFixe{
     width:100%;
-    height: 380px;
+    height: 100%;
 }
 .imgTamanho{
     width:100%;
-    height: 210px;
+    height: 100%;
 }
 
 .title{
@@ -14,7 +14,18 @@
 .divpost{
     padding-left: 6%; padding-right: 6%;
 }
+
+.para{
+  text-align: center;
+  font-size: 15px;
+}
 @media (max-width: 480px) {
+  .title{
+      text-align: center;
+      color: #3d3b3b;
+      font-size: 230%;
+      margin-top: 15%;
+  }
    .si{
        display: none;
    }
@@ -22,7 +33,7 @@
         padding: 0px;
         margin: 0px;
         text-align: center;
-        font-size: 18px;
+        font-size: 150%;
     }
     .para{
         text-align: center;
@@ -30,15 +41,12 @@
     }
     .imgTamanho{
         width:100%;
-        height: 200px;
+        height: 100%;
     }
     .divpost{
         padding-left: 1%; padding-right: 1%;
     }
-    .title{
-      font-size: 30px;
-      margin-top: 17%;
-    }
+
 }
 
 /* Telefones em paisagem a tablet em retrato */
@@ -49,6 +57,13 @@
     .foot{
         margin-left: 4%;
     }
+    .card-t{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        font-size: 130%;
+    }
+
 
 }
 
@@ -67,18 +82,21 @@
         font-size: 350%;
     }
     .card-t{
-        text-align: center;
-        font-size: 170%;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      font-size: 140%;
     }
     .cardFixe{
         width:100%;
-        height: 400px;
+        height: 100%;
     }
 
     .para{
         text-align: center;
         font-size: 15px;
     }
+
 }
 
 /* Desktop grande */
@@ -86,6 +104,18 @@
     .na{
         display: none;
     }
+    .cardFixe{
+      width:100%;
+      height: 100%;
+  }
+  .card-t{
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      font-size: 140%;
+  }
+
+
 }
 
 

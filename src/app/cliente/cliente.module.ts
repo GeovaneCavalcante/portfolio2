@@ -17,6 +17,9 @@ import { PostagensComponent } from './postagens/postagens.component';
 
 import { ContatoService } from './contato/contato.service';
 
+import { MzInputModule, MzValidationModule, MzSidenavModule, MzMediaModule } from 'ngx-materialize';
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -27,7 +30,11 @@ import { ContatoService } from './contato/contato.service';
     ScrollToModule.forRoot(),
     FormsModule,                               // <========== Add this line!
     ReactiveFormsModule,
-    SweetAlert2Module.forRoot()
+    SweetAlert2Module.forRoot(),
+    MzInputModule,
+    MzSidenavModule,
+    MzValidationModule,
+    MzMediaModule
   ],
   declarations: [
     ClienteComponent,

@@ -4,6 +4,13 @@
     height: 100%;
 }
 
+.div-nav{
+  z-index: 999;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
 .sec-row2{
     float: right;
     position: relative;
@@ -44,6 +51,7 @@ nav{
 
 .list li i{
   display: inline-block;
+  font-size: 180%;
 }
 
 
