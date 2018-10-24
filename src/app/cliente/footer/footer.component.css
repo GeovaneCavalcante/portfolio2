@@ -1,0 +1,20 @@
+.copyright {
+  display: block;
+  margin-bottom: .7em;
+
+}
+.copyright a {
+  color: #a6a6a6;
+  text-decoration: underline;
+}
+footer {
+  display: block;
+  padding: 2em 0 0;
+  font-size: .9em;
+  color: #b3b3b3;
+  border-top: 2px solid #ddd;
+}
+.linha-contato{
+  padding-left: 4%;
+  padding-right: 6%;
+}

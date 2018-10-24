@@ -18,6 +18,7 @@ import { PostagensComponent } from './postagens/postagens.component';
 import { ContatoService } from './contato/contato.service';
 
 import { MzInputModule, MzValidationModule, MzSidenavModule, MzMediaModule } from 'ngx-materialize';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { MzInputModule, MzValidationModule, MzSidenavModule, MzMediaModule } fro
     ContatoComponent,
     HomeAboutComponent,
     PageContatoComponent,
-    PostagensComponent
+    PostagensComponent,
+    FooterComponent
   ],
   exports: [
     ClienteComponent

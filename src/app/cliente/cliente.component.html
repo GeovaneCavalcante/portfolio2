@@ -5,8 +5,8 @@
   [collapseButtonId]="'btn-sidenav-demo'">
   <mz-sidenav-header>
     <div class="user-view">
-      <div class="background" style="width: 330%;">
-          <img src="../assets/images/sec-cliente.jpg" width="40%;">
+      <div class="background" style="width: 100%">
+          <img src="../assets/images/sec-cliente.jpg" width="100%;" height="270">
       </div>
       <a href="#user"><img class="circle center img_mobile" style="width: 32%; height: 32%;" src="../assets/images/profile.jpg"></a>
         <a ><h1 class="white-text name center" style="font-size: 20px">Geovane Cavalcante</h1></a>
@@ -15,7 +15,7 @@
   </mz-sidenav-header>
 
   <mz-sidenav-link  (click)="sidenav.opened = !sidenav.opened" >
-    <li routerLinkActive="active" ><a routerLink="/#" ><i class="material-icons">home</i>Home</a></li>
+    <li routerLinkActive="active" ><a routerLink="/home" ><i class="material-icons">home</i>Home</a></li>
   </mz-sidenav-link>
 
   <mz-sidenav-link (click)="sidenav.opened = !sidenav.opened" >
