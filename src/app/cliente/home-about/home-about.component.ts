@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 declare var jquery: any;
 declare var $: any;
@@ -10,10 +11,10 @@ declare var $: any;
 })
 export class HomeAboutComponent implements OnInit,  OnDestroy {
 
-  constructor() { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
-
+    this.titleService.setTitle( 'Geovane Cavalcante' );
     this.carrusel();
   }
 

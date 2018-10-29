@@ -25,7 +25,7 @@
             <textarea name="mensagem" cols="1" required minlength="7" type="text" class="materialize-textarea"  [(ngModel)]="email.menssagem" #mensagem="ngModel"
             [ngClass]="{'invalid': validate(mensagem.invalid, mensagem.dirty, mensagem.touched), 'valid': validate(mensagem.invalid, mensagem.dirty, mensagem.touched)}"
             ></textarea>
-            <label for="textarea1">Mensagem <i class="fa fa-align-justify" aria-hidden="true"></i></label>
+            <label  for="textarea1">Mensagem <i class="fa fa-align-justify" aria-hidden="true"></i></label>
             <span *ngIf="validate(mensagem.invalid, mensagem.dirty, mensagem.touched)" class="helper-text" data-error="Preencha o campo corretamente!" data-success="right"></span>
           </div>
         </div>
@@ -48,10 +48,10 @@
               type: 'warning'
             }">
           </swal>
-          <button *ngIf="(nome.invalid || email.invalid || mensagem.invalid)" (click)="invalidSweet.show()" style="background: #5374e2" class="btn  waves-effect waves-light" type="submit" name="action">Enviar
+          <button *ngIf="(nome.invalid || email.invalid || mensagem.invalid)" (click)="invalidSweet.show()" style="background: #039be5" class="btn  waves-effect waves-light" type="submit" name="action">Enviar
               <i class="material-icons right">send</i>
           </button>
-          <button *ngIf="!(nome.invalid || email.invalid || mensagem.invalid)" (click)="enviar({'subject': nome.value, 'from': email.value, 'text': mensagem.value})" style="background: #5374e2" class="btn  waves-effect waves-light" type="submit" name="action">Enviar
+          <button *ngIf="!(nome.invalid || email.invalid || mensagem.invalid)" (click)="enviar({'subject': nome.value, 'from': email.value, 'text': mensagem.value})" style="background: #039be5" class="btn  waves-effect waves-light" type="submit" name="action">Enviar
               <i class="material-icons right">send</i>
           </button>
         </div>

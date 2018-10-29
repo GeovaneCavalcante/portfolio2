@@ -35,14 +35,17 @@
 .list{
   display:flex;
   list-style:none;
-  margin-left: 3%;
+  text-align: center;
+  margin: auto;
+  position:relative;
 }
 
 .list li{
-    margin-left: 6px;
-    margin-right: 38px;
     font-size: 35px;
     color: white;
+    float:left;
+    position:relative;
+    margin: auto;
 }
 
 .list li i{
@@ -68,11 +71,9 @@
         position: relative;
         float: left;
     }
-    .list{
-        margin-left: 20 px;
-    }
+  
     .list li{
-        margin-left: 10px;
+
         font-size: 25px;
     }
     .list-names{
@@ -110,28 +111,19 @@
         background-position: relative;
     }
 
-    .list{
-        margin-left: 11%;
 
-    }
 }
 
 
 @media screen and (min-width: 992px) {
-    .list{
-        margin-left: -15px;
-      }
+    
 }
 
 @media screen and (min-width: 1024px) {
-    .list{
-        margin-left: -50px;
-      }
+    
 }
 
 
 @media screen and (min-width: 1200px) {
-    .list{
-        margin-left: -5px;
-      }
+   
 }

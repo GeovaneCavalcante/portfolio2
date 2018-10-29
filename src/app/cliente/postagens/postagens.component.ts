@@ -1,4 +1,5 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Title }     from '@angular/platform-browser';
 
 
 @Component({
@@ -6,13 +7,15 @@ import { Component, AfterViewInit } from '@angular/core';
   templateUrl: './postagens.component.html',
   styleUrls: ['./postagens.component.css'],
 })
-export class PostagensComponent implements AfterViewInit {
+export class PostagensComponent implements OnInit {
 
 
+  constructor(private titleService: Title) {
 
-  constructor() { }
+  }
 
-  ngAfterViewInit() {
+  ngOnInit() {
+    this.titleService.setTitle( "Blog - Geovane Cavalcante" );
   }
 
 }

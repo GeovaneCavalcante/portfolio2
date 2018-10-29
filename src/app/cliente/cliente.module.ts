@@ -17,7 +17,15 @@ import { PostagensComponent } from './postagens/postagens.component';
 
 import { ContatoService } from './contato/contato.service';
 
-import { MzInputModule, MzValidationModule, MzSidenavModule, MzMediaModule } from 'ngx-materialize';
+import {
+  MzInputModule,
+  MzValidationModule,
+  MzSidenavModule,
+  MzMediaModule,
+  MzChipModule,
+  MzCardModule
+} from 'ngx-materialize';
+
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -35,7 +43,9 @@ import { FooterComponent } from './footer/footer.component';
     MzInputModule,
     MzSidenavModule,
     MzValidationModule,
-    MzMediaModule
+    MzMediaModule,
+    MzChipModule,
+    MzCardModule
   ],
   declarations: [
     ClienteComponent,

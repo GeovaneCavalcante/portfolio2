@@ -17,12 +17,9 @@
    .si{
        display: none;
    }
-   .card-t{
-        padding: 0px;
-        margin: 0px;
-        text-align: center;
-        font-size: 18px;
-    }
+   .divpost{
+    padding-left: 0%; padding-right: 0%;
+  }
     .para{
         text-align: center;
         font-size: 12px;

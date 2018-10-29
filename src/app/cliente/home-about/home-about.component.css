@@ -74,6 +74,10 @@
         padding-bottom: 2%;
         font-size: 30px;
     }
+
+    .sobre{
+      margin-top: 8%;
+    }
 }
 
 /* Telefones em paisagem a tablet em retrato */
@@ -81,12 +85,18 @@
     .si{
         display: none;
     }
+    .sobre{
+      margin-top: 6%;
+    }
 }
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     .na{
         display: none;
+    }
+    .sobre{
+      margin-top: 6%;
     }
 }
 
@@ -102,4 +112,27 @@
       padding-left: 4%;
       padding-right: 6%;
     }
+
+  .card-t{
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      font-size: 140%;
+  }
+  .title1{
+    margin-bottom: 5%;
+  }
+}
+mz-chip{
+  background: #039be5;
+  color: white;
+}
+strong{
+  font-weight: 300;
+}
+
+.para{
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 100px;
 }

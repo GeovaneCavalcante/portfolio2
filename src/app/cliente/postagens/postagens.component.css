@@ -1,9 +1,8 @@
 .cardFixe{
-    width:100%;
     height: 100%;
 }
 .imgTamanho{
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -20,12 +19,7 @@
   font-size: 15px;
 }
 @media (max-width: 480px) {
-  .title{
-      text-align: center;
-      color: #3d3b3b;
-      font-size: 230%;
-      margin-top: 15%;
-  }
+
    .si{
        display: none;
    }
@@ -46,6 +40,9 @@
     .divpost{
         padding-left: 1%; padding-right: 1%;
     }
+    .foot{
+        margin-left: 1%;
+    }
 
 }
 
@@ -63,12 +60,18 @@
         text-align: center;
         font-size: 130%;
     }
-
+    .divpost{
+        padding-left: 1%; padding-right: 1%;
+    }
+    .title{
+        font-size: 230%;
+        margin-top: 10%;
+    }
 
 }
 
 /* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
     .si{
         display: none;
@@ -96,7 +99,13 @@
         text-align: center;
         font-size: 15px;
     }
-
+    .title{
+        font-size: 270%;
+        margin-top: 8%;
+    }
+    .foot{
+        margin-left: 10%;
+    }
 }
 
 /* Desktop grande */
@@ -117,5 +126,11 @@
 
 
 }
-
+mz-chip{
+  background: #039be5;
+  color: white;
+}
+strong{
+  font-weight: 300;
+}
 

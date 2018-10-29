@@ -90,6 +90,9 @@ nav{
         float: right;
         position:   relative;
     }
+    .sec-row{
+        display: none;
+      }
     nav{
         position: absolute;
     }

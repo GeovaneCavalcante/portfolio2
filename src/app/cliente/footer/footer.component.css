@@ -13,8 +13,33 @@ footer {
   font-size: .9em;
   color: #b3b3b3;
   border-top: 2px solid #ddd;
+  text-align: center;
 }
 .linha-contato{
   padding-left: 4%;
   padding-right: 6%;
+}
+
+@media (max-width: 480px) {
+  .linha-contato{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+
+  .linha-contato{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .linha-contato{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 }

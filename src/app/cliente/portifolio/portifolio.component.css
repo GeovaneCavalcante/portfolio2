@@ -37,6 +37,13 @@
     line-height: 1.7;
 }
 
+.imgCaru{
+
+
+
+}
+
+
 
 @media (max-width: 480px) {
   .divSpace{
@@ -86,12 +93,15 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+  .title_magim{
+    margin-top: 8%;
+  }
 
 
 }
 
 /* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .divH{
       padding-left: 2%;
       padding-right: 2%;
@@ -119,6 +129,9 @@
   .para{
       text-align: center;
       font-size: 15px;
+  }
+  .title_magim{
+    margin-top: 8%;
   }
 }
 
